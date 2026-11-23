@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="script.js"></script>
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="card__initial">
+        <picture>
+          <source srcset="assets/images/illustration-sign-up-desktop.svg" media="(min-width: 1000px)">
+          <img src="assets/images/illustration-sign-up-mobile.svg" alt="illustration of the monitor and rating" class="card__image">
+        </picture>
+        <section class="card__content">
+          <h1 class="card__title">
+            Stay updated!
+          </h1>
+          <p class="card__desc">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="card__list">
+            <li class="card__list-point">
+              Product discovery and building what matters
+            </li>
+            <li class="card__list-point">
+              Measuring to ensure updates are a success
+            </li>
+            <li class="card__list-point">
+              And much more!
+            </li>
+          </ul>
+
+          <form class="card__form" novalidate>
+            <div class="card__label-error">
+              <label for="mail" class="card__label"> Email address </label>
+              <span class="card__input-error" aria-live="polite"></span>
+            </div>
+            
+
+            <input
+              type="email"
+              id="mail"
+              name="mail"
+              autocomplete="email"
+              placeholder="email@company.com"
+              minlength="8"
+              required>
+
+            <button type="submit" class="card__initial-btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </section>
+      </div>
+
+      <div class="card__success" aria-live="polite">
+        <img src="assets/images/icon-success.svg" alt="checkmark icon" class="card__success-icon">
+        <h2 class="card__success-title">
+          Thanks for subscribing!
+        </h2>
+        <p class="card__success-desc">
+          A confirmation email has been sent to 
+          <strong>ash@loremcompany.com.</strong>
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+        <button class="card__success-btn" type="button">
+          Dismiss message
+        </button>
+      </div>
+    </article>
+  </main>  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/IIIRNBY" target="_blank">@IIIRNBY</a>.
+  </footer>
+</body>
+</html>
