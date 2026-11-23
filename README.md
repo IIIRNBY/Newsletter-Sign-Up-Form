@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: []
+- Live Site URL: [https://iiirnby.github.io/Newsletter-Sign-Up-Form/]
 
 ## My process
 
@@ -62,5 +62,5 @@ It was in this work that I first came across forms. Thanks to the documentation 
 
 ## Author
 
-- Website - [Add your name here]
+- Website - [https://iiirnby.github.io/Newsletter-Sign-Up-Form/]
 - Frontend Mentor - [@IIIRNBY]
