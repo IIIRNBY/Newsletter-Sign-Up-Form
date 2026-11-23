@@ -180,7 +180,7 @@ h1, h2 {
     flex-direction: column;
     gap: 1.25rem;
     padding: 1.5rem;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .card--change .card__success-icon {
