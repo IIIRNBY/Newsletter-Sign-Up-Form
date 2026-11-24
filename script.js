@@ -4,7 +4,7 @@ const emailError = document.querySelector('.card__input-error');
 const card = document.querySelector('.card');
 const cardSuccessBtn = document.querySelector('.card__success-btn');
 
-email.addEventListener('input', function(event) {
+email.addEventListener('input', () => {
     if (email.validity.valid) {
         emailError.textContent = '';
         emailError.className = 'card__input-error';
